@@ -1,13 +1,13 @@
 ---
 layout: page
-title: essay
-permalink: /blog/categories/essay/
+title: Book
+permalink: /blog/categories/book/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
 
 <div class="card">
-    {% for post in site.categories.essay %}
+    {% for post in site.categories.Book %}
         <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </div>
