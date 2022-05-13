@@ -33,3 +33,9 @@ comments: true
 
 > 어떤 객체를 효율적으로 수정하기 위한 구조는 어떤 것일까?
 
+
+
+- 결합력: 소스코드 없이 `Dao(Data Access Object)`를 변경가능하려면 어떻게 해야하나
+  - `interface`를 사용한다
+- 
+
